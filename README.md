@@ -4,7 +4,7 @@
 
 ## how to setting
 ```
-ln ./gitmessage.txt ~/.gitmessage.txt
+ln .gitmessage.txt ~/.gitmessage.txt
 git config --global commit.template ~/.gitmessage.txt
 ```
 
