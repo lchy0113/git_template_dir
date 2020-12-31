@@ -1,0 +1,22 @@
+# <type>: <subject>
+#
+# body
+#
+# footer
+
+# Subjects should be no greater than 50 characters  -> |
+# Body's each line should be no more than 72 characters  ##############     -> |
+
+# --- The Type ---
+#   feat    : a new feature
+#   fix     : a bug fix
+#   docs    : changes to documentation
+#   style   : formatting, missing semi colons, etc; no code change
+#   refactor: refactoring production code
+#   test    : adding tests, refactoring test; no production code change
+#   chore   : updating build tasks, package manager configs, etc; no production code change
+# ------------------
+#  Subjects should begin with a capital letter and do not end with a period.
+#  Use the body to explain the what and why of a commit, not the how.
+# ------------------
+#  refer : https://udacity.github.io/git-styleguide/
