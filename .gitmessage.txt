@@ -1,22 +1,35 @@
 # <type>: <subject>
-#
-# body
-#
-# footer
+##### Subject 50 characters ################# -> |
 
-# Subjects should be no greater than 50 characters  -> |
-# Body's each line should be no more than 72 characters  ##############     -> |
 
-# --- The Type ---
-#   feat    : a new feature
-#   fix     : a bug fix
-#   docs    : changes to documentation
-#   style   : formatting, missing semi colons, etc; no code change
+# Body Message
+######## Body 72 characters ####################################### -> |
+
+# Issue Tracker Number or URL
+
+# --- COMMIT END ---
+# Type can be
+#   feat    : new feature
+#   fix     : bug fix
 #   refactor: refactoring production code
-#   test    : adding tests, refactoring test; no production code change
-#   chore   : updating build tasks, package manager configs, etc; no production code change
+#   style   : formatting, missing semi colons, etc; no code change
+#   docs    : changes to documentation
+#   test    : adding or refactoring tests
+#             no productin code change
+#   chore   : updating grunt tasks etc
+#             no production code change
 # ------------------
-#  Subjects should begin with a capital letter and do not end with a period.
-#  Use the body to explain the what and why of a commit, not the how.
+# Remember me ~
+#   Capitalize the subject line
+#     제목줄은 대문자로 시작한다.
+#   Use the imperative mood in the subject line
+#     제목줄은 명령어로 작성한다.
+#   Do not end the subject line with a period
+#     제목줄은 마침표로 끝내지 않는다.
+#   Separate subject from body with a blank line
+#     본문과 제목에는 빈줄을 넣어서 구분한다.
+#   Use the body to explain what and why vs. how
+#     본문에는 "어떻게" 보다는 "왜"와 "무엇을" 설명한다.
+#   Can use multiple lines with "-" for bullet points in body
+#     본문에 목록을 나타낼때는 "-"로 시작한다.
 # ------------------
-#  refer : https://udacity.github.io/git-styleguide/
