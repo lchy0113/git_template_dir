@@ -1,4 +1,5 @@
 # git_template_dir
+=====
 
 # GIT COMMIT Message.
 
