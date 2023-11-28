@@ -24,7 +24,6 @@ git config --global commit.template ~/.gitmessage.txt
 git config --global --list
 ```
 
-
 ## change default "Change-Id" select in command 
 
 ```bash
