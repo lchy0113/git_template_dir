@@ -1,16 +1,26 @@
 # git_template_dir
 =====
 
-# GIT COMMIT Message.
+# git config 
+
+// git config 를 적용
+
+```bash
+ln -s $(PWD)/.gitconfig ~/.gitconfig
+```
+
+# git commit message.
 
 ## how to setting
-```
+
+```bash
 ln -s ($PWD).gitmessage.txt ~/.gitmessage.txt
 git config --global commit.template ~/.gitmessage.txt
 ```
 
 ## check setting
-```
+
+```bash
 git config --global --list
 ```
 
@@ -24,4 +34,3 @@ git config --global gerrit.createchangeid true
 git config --bool --get gerrit.createChangeId
 ```
 
-```
