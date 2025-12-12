@@ -1,12 +1,24 @@
-# <type>: <subject>
-##### Subject 50 characters ################# -> |
-
-
-# Body Message
-######## Body 72 characters ####################################### -> |
-
-# Issue Tracker Number or URL
-
+# <type>(<scope>): <Subject>
+#
+# Subject rules:
+# - imperative mood (Add, Fix, Update, Remove ...)
+# - first letter MUST be capitalized
+# - no period at the end
+# - max 50 characters
+#
+# Body rules:
+# - leave one blank line after subject
+# - start each body line with lowercase
+# - explain what and why, not how
+# - wrap lines at 72 characters
+#
+# Example:
+# feat(audio): Add emergency and subp_call policy configs
+#
+# - added emergency stream handling for priority calls
+# - updated audio policy routing rules
+# - verified behavior after reboot
+#
 # --- COMMIT END ---
 # Type can be
 #   feat    : new feature
